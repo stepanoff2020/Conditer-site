@@ -28,6 +28,12 @@ a {
     margin: 0 auto;
     max-width: 1300px;
 }
+.title{
+    font-family: 'Georgia';
+    font-weight: 400;
+    line-height: 91px;
+    color: #453831
+}
 .header__inner{
     display: flex;
     align-items: center;
@@ -85,12 +91,18 @@ a {
     display: flex;
 }
 .promo__title{
-    margin-top: 120px;
-    font-family: 'Georgia';
-    font-weight: 400;
     font-size: 80px;
-    line-height: 91px;
-    color: #453831
+    margin-top: 120px;
+}
+.promo__left-column{
+    position: relative;
+}
+.bcd-img{
+    position: absolute;
+    top: -107px;
+    left: -321px;
+    filter: blur(8px);
+    z-index: -1;
 }
 .promo__subtitle{
     margin-top: 7px;
@@ -130,7 +142,19 @@ a {
     object-fit: cover;
 }
 .promo__right-column{
-    position: relative;
+    position: relative;    
+}
+.promo__bcd-img{
+    position: absolute;
+    top: 447px;
+    left: 377px;
+    filter: blur(7.5px);
+}
+.promo__bcd-img-2{
+    position: absolute;
+    top: -68px;
+    left: 542px;
+    filter: blur(7.5px);
 }
 .rating__wrapper{
     position: absolute;
@@ -163,8 +187,6 @@ a {
 }
 .best__product-title{
     margin-top: 10px;
-    font-family: 'Georgia';
-    font-weight: 400;
     font-size: 32px;
     line-height: 36px;
     letter-spacing: 0.04em;
@@ -189,11 +211,8 @@ a {
 .slide__title{
     margin-top: 18px;
     margin-bottom: 51px;
-    font-family: 'Georgia';
-    font-weight: 400;
     font-size: 25px;
     line-height: 28px;
-    color: #453831;
 }
 .item__price{
     display: flex;
@@ -232,11 +251,8 @@ a {
     display: flex;
 }
 .about__title{
-    font-family: 'Georgia';
-    font-weight: 400;
     font-size: 65px;
     line-height: 74px;
-    color: #453131;
 }
 .about__text{
     margin: 27px;
@@ -284,12 +300,8 @@ a {
     padding-top: 58px;
     display: flex;
     justify-content: center;
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
     font-size: 83px;
     line-height: 94px;
-    color: #453131;
 }
 .video{
         position: relative;
